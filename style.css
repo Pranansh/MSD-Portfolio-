@@ -1,0 +1,270 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.ind{
+  display: flex;
+  position: absolute;
+  top: 0%;
+  height: 10vw;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+
+.hee{
+  text-align: center;
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+    0%{color: red;}
+    25%{color: pink;}
+    50%{color: palevioletred;}
+    100%{color: orangered;}
+}
+
+.lat{
+  margin-left: 28%;
+}
+
+.last{
+
+    font-size: 125%;
+    color: lightblue;
+    text-align: center;
+
+}
+
+.msd{
+  display: block;
+  position: absolute;
+  height: 90%;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+}
+
+.name1{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  font-size: 200%;
+  animation: colorchange 1s infinite;
+}
+
+.name2{
+  position: absolute;
+  top: 32%;
+  left: 18%;
+  color: lightblue;
+  font-size: 175%;
+  animation: colorchange 1s infinite;
+}
+
+.stats{
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 10px;
+  padding: 0.75%;
+  border: 3px solid lightblue;
+}
+
+.stats:hover{
+  background-color: lightblue;
+  border: none;
+  color: black;
+}
+
+.ach{
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 10px;
+  padding: 0.75%;
+  border: 3px solid lightblue;
+}
+
+.ach:hover{
+  background-color: lightblue;
+  border: none;
+  color: black;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0%;
+  font-size: 125%;
+}
+
+.msdddd{
+  margin-left: 50%;
+  font-size: 75%;
+  position: absolute;
+  top: 19%;
+}
+
+.l1 {
+  float: left;
+}
+
+.l1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.l1 a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.stat1{
+  text-align: center;
+  animation: colorchange 1s infinite;
+}
+
+.table1{
+  font-size: 2vw;
+  text-align: center;
+}
+
+.csk{
+    position: absolute;
+    left: 25%;
+    top: 7%;
+    opacity: 0.29;
+}
+.MOOBAALALALAA{
+  position: absolute;
+  left: 10%;
+  top: 7%;
+
+  box-sizing: border-box;
+  height: 93vh;
+  background-size: cover;
+  opacity: 0.5;
+
+
+}
+
+.flexa{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  border: 2px solid lightblue;
+  position: absolute;
+  padding: 1%;
+  left: 10%;
+}
+
+.flex1{
+  text-align: center;
+  width: 25%;
+  padding: 1%;
+}
+
+.flex2{
+  text-align: center;
+  width: 75%;
+  padding: 1%;
+}
+
+.flex2 > a{
+  color: lightblue;
+}
+
+.flex2 > a:hover{
+  background-color: lightblue;
+  color: black;
+}
+
+.follow{
+  text-align: center;
+  animation: colorchange 1s infinite;
+}
+
+.twitter{
+  position: absolute;
+  height: 5vw;
+  top: 40%;
+  left: 5%
+}
+
+.facebook{
+  position: absolute;
+  height: 5vw;
+  top: 70%;
+  left: 5%
+}
+
+.insta{
+  position: absolute;
+  height: 5vw;
+  top: 55%;
+  left: 5%
+}
+
+.achi{
+  text-align: center;
+  animation: colorchange 1s infinite;
+}
+
+.table2{
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+  .msd{
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+
+  }
+
+  .name1{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 150%;
+  }
+
+  .name2{
+    position: absolute;
+    top: 32%;
+    left: 11%;
+    color: lightblue;
+    font-size: 125%;
+  }
+
+  .csk{
+    left: 10%;
+
+  }
+  .MOOBAALALALAA{
+    left: 10%;
+  }
+  .lat{
+    left:10%;
+  }
+}
